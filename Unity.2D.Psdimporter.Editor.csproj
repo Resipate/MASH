@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2e75f712-10d2-ab2f-0267-ff59d27d5571}</ProjectGuid>
+    <ProjectGuid>{1fb541e0-0f5d-46d6-66a2-4468c597ecc4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Psdimporter.Editor</AssemblyName>
@@ -317,46 +317,46 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Pdb">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="log4netPlastic">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.collab-proxy@2.0.1\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Cecil.Rocks">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+        <HintPath>C:\Users\ashto\Desktop\Stranded\My project (1)\MASH\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
@@ -736,55 +736,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{8bf9baf9-a030-7aef-268e-93e6c551bb19}</Project>
+      <Project>{4180923d-ce9f-2631-a51d-031cd0796994}</Project>
       <Name>PsdPlugin</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{775d3687-f9dc-cf67-0cc2-c9ab796de660}</Project>
+      <Project>{782a4568-c341-75b4-1254-c7a6e8bc0896}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{600c50e9-79da-16e8-0cae-4c820f7523f6}</Project>
+      <Project>{9587c044-18e8-7907-f6ae-025b378ba981}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{80ae57c3-d28e-5c45-c1e1-d57a32322576}</Project>
+      <Project>{3ec0dc38-81ba-d72a-d475-3966fb0fe735}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{4e0e346e-e05c-fe7c-7f9a-23a9b009862b}</Project>
+      <Project>{86dc01b4-b875-7be7-d290-ed051a2f7294}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{8172da0f-3e3c-0a6d-eea5-48e0cae5fb12}</Project>
+      <Project>{c9e14379-3e4d-5d10-5df4-c999861d30b2}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{e7e4e348-e2b4-3470-c4d9-628e207db282}</Project>
+      <Project>{f75f3204-6ac2-5c04-635b-1b5b091da9f3}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{a7bf2779-7272-7993-b845-34d3c9b34c6c}</Project>
+      <Project>{00247cc5-a3c8-91e2-ab1b-b781fbc9d1c9}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{27ba16ca-d7aa-439e-991f-410466806c52}</Project>
+      <Project>{6acf5002-2e9c-9a1f-613b-643c772d3ab8}</Project>
       <Name>Unity.InternalAPIEngineBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{f7579520-c516-d281-9676-cc793e0d72e5}</Project>
+      <Project>{75655df1-fa1e-6019-6355-7ec1c5409114}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{66f379c1-d8ff-b5fd-eff1-d04e672baf93}</Project>
+      <Project>{a79c1ad8-6d48-c5b8-b739-0626e03214c9}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{4b5a43b8-9798-8744-671e-f9df77ec9d1b}</Project>
+      <Project>{ea3eb534-d735-6625-246f-b32dbc92c9e4}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{cc6c1d34-c283-27ba-288e-c2063e8a2c17}</Project>
+      <Project>{097411ff-5f4f-e2fa-eb01-f392d61108f9}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
