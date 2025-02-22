@@ -189,3 +189,31 @@ Received Import Request.
   path: Assets/Scenes/End.unity
   artifactKey: Guid(7b64a240a0036ef4d8322ffe3f642d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/End.unity using Guid(7b64a240a0036ef4d8322ffe3f642d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac024d0fbf1cd613b26945cb12bb0eb') in 0.011352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 287.912511 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.017387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.987994 seconds.
+  path: Assets/Sprites
+  artifactKey: Guid(fc7d4c76f27616e4a8458acb19520939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(fc7d4c76f27616e4a8458acb19520939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ea0f4d38b86a79617b05a6e12ef07e') in 0.018622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.329292 seconds.
+  path: Assets/Sprites/Heli1.png
+  artifactKey: Guid(f644038de42e85e42a8e301e65a1d405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Heli1.png using Guid(f644038de42e85e42a8e301e65a1d405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0455759b0ad36d3022ec73d12a85910c') in 0.244773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/soldier.png
+  artifactKey: Guid(786a4b595e8f84a4e8e50e84b517dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/soldier.png using Guid(786a4b595e8f84a4e8e50e84b517dcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806a7cc7003afb5ac57fb6b983ce4470') in 0.102079 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
