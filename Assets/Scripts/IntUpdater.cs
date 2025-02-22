@@ -8,6 +8,7 @@ public class IntUpdater : MonoBehaviour
     private int maxCap = 3;
     [SerializeField] private Sprite[] states;
     [SerializeField] private SpriteRenderer sR;
+    [SerializeField] private PlayerMovement pM;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,12 +18,14 @@ public class IntUpdater : MonoBehaviour
     public int addSoldier(){
         if(currState + 1 > maxCap){ return -1; }
         sR.sprite = states[++currState];
+        pM.dragIndex += 1;
         return currState;
     }
 
     public int removeSoldier(){
         if(currState == 0){ return -1; }
         sR.sprite = states[--currState];
+        pM.dragIndex -= 1;
         return currState;
     }
 }

@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float xSpeed;
     [SerializeField] private float ySpeed;
     [SerializeField] private float accelCo;
-    [SerializeField] private float dragIndex;
+    [SerializeField] public float dragIndex;
     [SerializeField] private float dragCo;
     [SerializeField] private float speedDecay;
     // Start is called before the first frame update
@@ -43,5 +43,9 @@ public class PlayerMovement : MonoBehaviour
         else{ ySpeed = 0; }
 
         this.transform.Translate(new Vector2(xSpeed, ySpeed) * Time.deltaTime);
+        if(this.transform.position.x > 10.25f){ this.transform.position = new Vector2(10.25f, this.transform.position.y); }
+        if(this.transform.position.x < -10.4f){ this.transform.position = new Vector2(-10.4f, this.transform.position.y); }
+        if(this.transform.position.y > 4.5f){ this.transform.position = new Vector2(this.transform.position.x, 4.5f); }
+        if(this.transform.position.y < -4f){ this.transform.position = new Vector2(this.transform.position.x, -4f); }
     }
 }

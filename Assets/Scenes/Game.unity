@@ -517,6 +517,7 @@ GameObject:
   - component: {fileID: 772757455}
   - component: {fileID: 772757457}
   - component: {fileID: 772757456}
+  - component: {fileID: 772757458}
   m_Layer: 0
   m_Name: Tree
   m_TagString: Untagged
@@ -617,6 +618,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &772757458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772757454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14e319a0d3964a4d8d7a3b643740098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &820041807
 GameObject:
   m_ObjectHideFlags: 0
@@ -753,6 +766,7 @@ GameObject:
   - component: {fileID: 1088899709}
   - component: {fileID: 1088899708}
   - component: {fileID: 1088899707}
+  - component: {fileID: 1088899710}
   m_Layer: 0
   m_Name: Tree (3)
   m_TagString: Untagged
@@ -853,6 +867,18 @@ Transform:
   m_Father: {fileID: 443258542}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1088899710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088899706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14e319a0d3964a4d8d7a3b643740098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1137668216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1126,7 @@ GameObject:
   - component: {fileID: 1244590262}
   - component: {fileID: 1244590261}
   - component: {fileID: 1244590260}
+  - component: {fileID: 1244590263}
   m_Layer: 0
   m_Name: Tree (2)
   m_TagString: Untagged
@@ -1200,6 +1227,18 @@ Transform:
   m_Father: {fileID: 443258542}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1244590263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244590259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14e319a0d3964a4d8d7a3b643740098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1614007710
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +1547,7 @@ GameObject:
   - component: {fileID: 1970602107}
   - component: {fileID: 1970602106}
   - component: {fileID: 1970602105}
+  - component: {fileID: 1970602108}
   m_Layer: 0
   m_Name: Tree (1)
   m_TagString: Untagged
@@ -1608,6 +1648,18 @@ Transform:
   m_Father: {fileID: 443258542}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970602108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970602104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b14e319a0d3964a4d8d7a3b643740098, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2076738963
 GameObject:
   m_ObjectHideFlags: 0
