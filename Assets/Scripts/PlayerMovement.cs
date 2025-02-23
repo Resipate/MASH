@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.R)){ SceneManager.LoadScene("Game"); } 
+        if(Input.GetKeyDown(KeyCode.Escape)){ SceneManager.LoadScene("Start"); }
 
         int x = 0, y = 0;
         if(Input.GetKey(KeyCode.LeftArrow)){
