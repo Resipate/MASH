@@ -17,7 +17,9 @@ public class HospitalBehav : MonoBehaviour
                     result = iU.removeSoldier();
                     if(result != -1){ score += 1; }
                     sR.sprite = states[score];
-                    if(score >= 9){ SceneManager.LoadScene("End"); }
+                    if(score >= 9){
+                        SceneManager.LoadScene("End"); 
+                    }
                 }
             }
         }

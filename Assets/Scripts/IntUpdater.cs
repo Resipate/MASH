@@ -6,6 +6,7 @@ public class IntUpdater : MonoBehaviour
 {
     private int currState;
     private int maxCap = 3;
+    [SerializeField] private AudioSource collect, deposit;
     [SerializeField] private Sprite[] states;
     [SerializeField] private SpriteRenderer sR;
     [SerializeField] private PlayerMovement pM;
@@ -19,6 +20,7 @@ public class IntUpdater : MonoBehaviour
         if(currState + 1 > maxCap){ return -1; }
         sR.sprite = states[++currState];
         pM.dragIndex += 1;
+        collect.Play();
         return currState;
     }
 
@@ -26,6 +28,7 @@ public class IntUpdater : MonoBehaviour
         if(currState == 0){ return -1; }
         sR.sprite = states[--currState];
         pM.dragIndex -= 1;
+        deposit.Play();
         return currState;
     }
 }
