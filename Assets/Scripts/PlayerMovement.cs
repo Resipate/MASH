@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] private Transform sprite;
     [SerializeField] private float maxSpeed;
     [SerializeField] private float xSpeed;
     [SerializeField] private float ySpeed;
@@ -27,9 +28,11 @@ public class PlayerMovement : MonoBehaviour
         int x = 0, y = 0;
         if(Input.GetKey(KeyCode.LeftArrow)){
             x -= 1;
+            sprite.localScale = new Vector3(-1, 1, 1);
         }
         if(Input.GetKey(KeyCode.RightArrow)){
             x += 1;
+            sprite.localScale = new Vector3(1, 1, 1);
         }
         if(Input.GetKey(KeyCode.UpArrow)){
             y += 1;
