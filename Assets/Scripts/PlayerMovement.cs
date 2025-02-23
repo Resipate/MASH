@@ -50,9 +50,9 @@ public class PlayerMovement : MonoBehaviour
         else{ ySpeed = 0; }
 
         this.transform.Translate(new Vector2(xSpeed, ySpeed) * Time.deltaTime);
-        if(this.transform.position.x > 10.25f){ this.transform.position = new Vector2(10.25f, this.transform.position.y); }
-        if(this.transform.position.x < -10.4f){ this.transform.position = new Vector2(-10.4f, this.transform.position.y); }
-        if(this.transform.position.y > 4.5f){ this.transform.position = new Vector2(this.transform.position.x, 4.5f); }
-        if(this.transform.position.y < -4f){ this.transform.position = new Vector2(this.transform.position.x, -4f); }
+        if(this.transform.position.x > 10.25f){ this.transform.position = new Vector3(10.25f, this.transform.position.y, this.transform.position.z); }
+        if(this.transform.position.x < -10.4f){ this.transform.position = new Vector3(-10.4f, this.transform.position.y, this.transform.position.z); }
+        if(this.transform.position.y > 4.5f){ this.transform.position = new Vector3(this.transform.position.x, 4.5f, this.transform.position.z); }
+        if(this.transform.position.y < -4f){ this.transform.position = new Vector3(this.transform.position.x, -4f, this.transform.position.z); }
     }
 }
